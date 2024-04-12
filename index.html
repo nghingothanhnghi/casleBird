@@ -132,7 +132,8 @@
 								<form class="row g-3">
 									<div class="col-12 col-md-12">
 										<!--label-->
-										<label for="programFormName" class="form-label text-primary">Start typing to see the magic happen!</label>
+										<label for="programFormName" class="form-label text-primary">Start typing to see
+											the magic happen!</label>
 										<!--input-->
 										<div class="input-group">
 											<textarea id="typedTextarea" class="form-control" rows="4"
@@ -145,7 +146,8 @@
 														d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0" />
 												</svg></button>
 										</div>
-										<p class="text-muted mt-2 mb-0 small">AI gens can make mistakes. Consider checking important information.</p>
+										<p class="text-muted mt-2 mb-0 small">AI gens can make mistakes. Consider
+											checking important information.</p>
 										<div class="invalid-feedback">Please enter a prompt for me.</div>
 									</div>
 								</form>
@@ -526,9 +528,9 @@
 			</div>
 		</section>
 		<!--end of call to action-->
-		
+
 	</main>
-	
+
 	<footer class="bg-dark py-4">
 		<div class="container">
 			<div class="row d-flex align-items-center">
@@ -568,6 +570,9 @@
 			$('html, body').animate({
 				scrollTop: $("#result_ai").offset().top
 			}, 1000);
+		});
+		window.addEventListener('contextmenu', function (e) {
+			e.preventDefault();
 		});
 	</script>
 
